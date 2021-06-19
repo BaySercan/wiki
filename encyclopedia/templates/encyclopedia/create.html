@@ -12,7 +12,7 @@
     <div style="margin-top: 20px; width: 60%;">
         <form action="{% url 'encyclopedia:create' %}" method="POST">
             {% csrf_token %}
-            {{ form |as_bootstrap }}
+            {{ form }}
             <input type="submit" value="Add Entry" class="btn btn-primary btn-sm float-right" style="margin-top: 15px; align-self: flex-end;">
         </form>
     </div>

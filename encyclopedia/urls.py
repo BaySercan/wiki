@@ -12,6 +12,6 @@ urlpatterns = [
     path("searchEntry", views.searchEntry, name="searchEntry"),
     path("create/", views.create, name="create"),
     path("update/<str:title>", views.update, name="update"),
-    path("update/", views.index, name="index"),
+    #path("update/", views.index, name="index"),
     path("randomEntry/", views.randomEntry, name="randomEntry")
 ]
